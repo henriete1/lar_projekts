@@ -9,7 +9,7 @@ service = Service()
 option = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=option)
 
-date_str = input("ievadiet datumu ")
+date_str = ""
 
 if date_str == "":
     today=date.today()
