@@ -1,4 +1,4 @@
-import selenium
+#import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -49,6 +49,8 @@ driver.get(url1)
 driver.find_element(By.XPATH, "//html/body/div[2]/div[2]/div[1]/div[2]/div[2]/button[1]").click()
 
 time.sleep(2)
+
+
 
 
 
